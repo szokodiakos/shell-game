@@ -1,0 +1,83 @@
+﻿#gameCanvas {
+  width: 640px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#arrowImage {
+    width: 32px;
+    height: 32px;
+}
+
+
+h1 {
+    color: #1d004d;
+}
+
+.spin {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg); 
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+#menu h1 {
+    text-align: center;
+    color: white;
+}
+
+#menu h3 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+#infoMenuTable {
+    margin-top: 50px;
+}
+
+.tableData {
+    text-align: right;
+    padding-left: 20px;
+    color: white;
+}
+
+#placeBetTextBox {
+    background-color: #1d004d;
+    border-color: white;
+    width: 7em;
+    color: white;
+}
+
+#startMenuTable {
+    margin-top: 20px;
+}
+
+
+
+/* BigSlide related */
+.panel {
+    position: fixed;
+    left: -15.625em;
+    width: 15.625em;
+}
+
+body {
+    font-family: 'Segoe UI Light', sans-serif;
+    color: #101820;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.wrap {
+    position: relative;
+}
+
+.panel {
+    background: #1d004d;
+}
+
+.panel a {
+    color: #fff;
+}

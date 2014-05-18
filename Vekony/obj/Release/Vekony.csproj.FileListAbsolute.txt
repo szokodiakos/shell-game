@@ -1,0 +1,6 @@
+C:\Users\akos\documents\visual studio 2013\Projects\Vekony\Vekony\bin\Vekony.dll.config
+C:\Users\akos\documents\visual studio 2013\Projects\Vekony\Vekony\bin\Vekony.dll
+C:\Users\akos\documents\visual studio 2013\Projects\Vekony\Vekony\bin\Vekony.pdb
+C:\Users\akos\documents\visual studio 2013\Projects\Vekony\Vekony\obj\Release\Vekony.dll
+C:\Users\akos\documents\visual studio 2013\Projects\Vekony\Vekony\obj\Release\Vekony.pdb
+C:\Users\akos\documents\visual studio 2013\Projects\Vekony\Vekony\obj\Release\Vekony.csprojResolveAssemblyReference.cache

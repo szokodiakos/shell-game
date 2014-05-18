@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ShellGame</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.css"/>
+    <script src="lib/jquery-1.11.0.min.js"></script>
+    <script src="lib/jquery-ui.min.js"></script>
+    <script src="lib/bigSlide.min.js"></script>
+    <script src="lib/kinetic-v5.0.2.min.js"></script>
+    <script src="src/Constants.js"></script>
+    <script src="src/Position.js"></script>
+    <script src="src/Place.js"></script>
+    <script src="src/Cup.js"></script>
+    <script src="src/Ball.js"></script>
+    <script src="src/Game.js"></script>
+    <script src="src/Main.js"></script>
+</head>
+<body>
+    <nav id="menu" class="panel" role="navigation">
+        <h1>Menu</h1>
+        <table id="controlMenuTable" align="center">
+            <tr>
+                <td>
+                    <button id="newGameButton">New game</button>
+                </td>
+            </tr>
+            <!--<tr>
+                    <td>
+                        <button id="highScoreButton">High score</button>
+                    </td>
+                </tr>-->
+        </table>
+        <table id="infoMenuTable" align="center">
+            <tr>
+                <td>
+                    <img alt="Current level" src="img/level.png"/>
+                </td>
+                <td class="tableData">
+                    <label id="levelLabel">Level 1</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img alt="Cash in bank" src="img/bank.png"/>
+                </td>
+                <td class="tableData">
+                    <label id="cashInBankLabel">$ 10</label>
+                </td>
+            </tr>
+        </table>
+        <div id="betMenuDiv">
+            <h3>Place your bet</h3>
+            <table id="betMenuTable" align="center">
+                <tr>
+                    <td>
+                        <img alt="Place your bet" src="img/bet.png" />
+                    </td>
+                    <td class="tableData">
+                        $ <input id="placeBetTextBox" type="text" placeholder="0"/>
+                    </td>
+                </tr>
+            </table>
+            <table id="startMenuTable" align="center">
+                <tr>
+                    <td>
+                        <button id="startButton">Start</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="selectCupMenuDiv">
+            <h3>Select a cup</h3>
+            <table id="selectCupMenuTable" align="center">
+                <tr>
+                    <td>
+                        <img src="img/question.png" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="successMenuDiv">
+            <h3>Good job!</h3>
+            <table id="successMenuTable" align="center">
+                <tr>
+                    <td>
+                        <img src="img/goodjob.png"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="okFromSuccess">OK</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="failedMenuDiv">
+            <h3>Oh snap!</h3>
+            <table id="successMenuTable" align="center">
+                <tr>
+                    <td>
+                        <img src="img/ohsnap.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="okFromFailed">OK</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="loseMenuDiv">
+            <h3>Game over!</h3>
+            <table id="loseMenuTable" align="center">
+                <tr>
+                    <td>
+                        <img src="img/lose.png" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+    <div id="pushableContent" class="wrap push">
+        <h1>Shell Game - double or nothing</h1>
+        <a id="triggerMenuButton" href="#menu" class="menu-link">
+            <img id="arrowImage" src="img/arrow.png" />
+        </a>
+        <div id="gameCanvas"></div>
+    </div>
+</body>
+</html>

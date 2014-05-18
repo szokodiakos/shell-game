@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>c:\Vekony</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app.css">
+      <publishTime>04/30/2014 01:05:19</publishTime>
+    </File>
+    <File Include="Ball.js">
+      <publishTime>05/11/2014 03:11:11</publishTime>
+    </File>
+    <File Include="bin/Vekony.dll">
+      <publishTime>05/13/2014 02:48:41</publishTime>
+    </File>
+    <File Include="Constants.js">
+      <publishTime>05/11/2014 03:11:11</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_2300ad_0.png">
+      <publishTime>05/12/2014 22:09:09</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_525252_0.png">
+      <publishTime>05/12/2014 22:09:09</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_d4d4d4_0.png">
+      <publishTime>05/12/2014 22:09:09</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_ffffff_0.png">
+      <publishTime>05/12/2014 22:09:09</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>05/12/2014 22:09:09</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>05/13/2014 01:29:39</publishTime>
+    </File>
+    <File Include="Cup.js">
+      <publishTime>05/11/2014 03:11:11</publishTime>
+    </File>
+    <File Include="Game.js">
+      <publishTime>05/11/2014 03:11:11</publishTime>
+    </File>
+    <File Include="img/arrow.png">
+      <publishTime>05/12/2014 21:06:30</publishTime>
+    </File>
+    <File Include="img/ball.png">
+      <publishTime>04/30/2014 01:00:31</publishTime>
+    </File>
+    <File Include="img/bank.png">
+      <publishTime>05/12/2014 21:52:53</publishTime>
+    </File>
+    <File Include="img/bet.png">
+      <publishTime>05/12/2014 21:52:53</publishTime>
+    </File>
+    <File Include="img/cup.png">
+      <publishTime>04/30/2014 01:00:31</publishTime>
+    </File>
+    <File Include="img/goodjob.png">
+      <publishTime>05/13/2014 00:52:27</publishTime>
+    </File>
+    <File Include="img/level.png">
+      <publishTime>05/12/2014 21:52:53</publishTime>
+    </File>
+    <File Include="img/lose.png">
+      <publishTime>05/13/2014 00:56:06</publishTime>
+    </File>
+    <File Include="img/ohsnap.png">
+      <publishTime>05/13/2014 00:53:25</publishTime>
+    </File>
+    <File Include="img/question.png">
+      <publishTime>05/13/2014 00:37:22</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>05/13/2014 02:27:28</publishTime>
+    </File>
+    <File Include="lib/bigSlide.min.js">
+      <publishTime>05/12/2014 20:45:32</publishTime>
+    </File>
+    <File Include="lib/jquery-1.11.0.min.js">
+      <publishTime>05/11/2014 00:34:34</publishTime>
+    </File>
+    <File Include="lib/jquery-ui.min.js">
+      <publishTime>05/12/2014 22:24:50</publishTime>
+    </File>
+    <File Include="lib/kinetic-v5.0.2.min.js">
+      <publishTime>05/11/2014 00:33:18</publishTime>
+    </File>
+    <File Include="lib/require.js">
+      <publishTime>05/12/2014 19:20:38</publishTime>
+    </File>
+    <File Include="Main.js">
+      <publishTime>05/11/2014 03:11:11</publishTime>
+    </File>
+    <File Include="Place.js">
+      <publishTime>05/11/2014 03:11:11</publishTime>
+    </File>
+    <File Include="Position.js">
+      <publishTime>05/11/2014 03:11:11</publishTime>
+    </File>
+    <File Include="src/Ball.js">
+      <publishTime>05/13/2014 18:31:10</publishTime>
+    </File>
+    <File Include="src/Constants.js">
+      <publishTime>05/13/2014 18:31:10</publishTime>
+    </File>
+    <File Include="src/Cup.js">
+      <publishTime>05/13/2014 18:31:10</publishTime>
+    </File>
+    <File Include="src/Game.js">
+      <publishTime>05/13/2014 18:31:10</publishTime>
+    </File>
+    <File Include="src/Main.js">
+      <publishTime>05/13/2014 18:31:10</publishTime>
+    </File>
+    <File Include="src/Place.js">
+      <publishTime>05/13/2014 18:31:10</publishTime>
+    </File>
+    <File Include="src/Position.js">
+      <publishTime>05/13/2014 18:31:10</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>05/11/2014 02:19:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
